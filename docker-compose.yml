@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  airportdistancemeter.webhost:
+    image: ${DOCKER_REGISTRY-}airportdistancemeterwebhost
+    build:
+      context: .
+      dockerfile: AirportDistanceMeter.WebHost/Dockerfile

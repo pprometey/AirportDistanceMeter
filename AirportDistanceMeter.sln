@@ -1,0 +1,77 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirportDistanceMeter.WebHost", "AirportDistanceMeter.WebHost\AirportDistanceMeter.WebHost.csproj", "{DCBA44C3-833D-4EE6-8F0E-844C6FC22734}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirportDistanceMeter.Application", "AirportDistanceMeter.Application\AirportDistanceMeter.Application.csproj", "{5EA2D586-D6EB-4488-9C6E-BF4BBB2435DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirportDistanceMeter.Infrastructure", "AirportDistanceMeter.Infrastructure\AirportDistanceMeter.Infrastructure.csproj", "{76D4ACC2-3897-4842-9E0F-C5636867FAF2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A9CC8106-234F-4052-A8EC-080A5FFCA520}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		DeleteBinObjFolders.ps1 = DeleteBinObjFolders.ps1
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application Layer", "Application Layer", "{EB1D7AB6-5195-4C02-A8DB-FF0CD1F0C1FE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure Layer", "Infrastructure Layer", "{0B6AF7C6-EF99-4A22-8DB7-A18FAA420FB7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{5FB13D02-52EE-4597-997C-2B6EC4B71A43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.Infrastructure.Tools", "Common.Infrastructure.Tools\Common.Infrastructure.Tools.csproj", "{5BC45655-98AB-40F4-AC1D-33586E251796}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirportDistanceMeter.Domain", "AirportDistanceMeter.Domain\AirportDistanceMeter.Domain.csproj", "{945FA996-DA50-4025-B76C-153499011216}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain Layer", "Domain Layer", "{01DD986E-F990-4E66-9BD8-3EC7083BD889}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{E0940DE7-A89F-4759-9376-4BD5C748F398}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DCBA44C3-833D-4EE6-8F0E-844C6FC22734}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCBA44C3-833D-4EE6-8F0E-844C6FC22734}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCBA44C3-833D-4EE6-8F0E-844C6FC22734}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCBA44C3-833D-4EE6-8F0E-844C6FC22734}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EA2D586-D6EB-4488-9C6E-BF4BBB2435DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EA2D586-D6EB-4488-9C6E-BF4BBB2435DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EA2D586-D6EB-4488-9C6E-BF4BBB2435DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EA2D586-D6EB-4488-9C6E-BF4BBB2435DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76D4ACC2-3897-4842-9E0F-C5636867FAF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76D4ACC2-3897-4842-9E0F-C5636867FAF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76D4ACC2-3897-4842-9E0F-C5636867FAF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76D4ACC2-3897-4842-9E0F-C5636867FAF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BC45655-98AB-40F4-AC1D-33586E251796}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BC45655-98AB-40F4-AC1D-33586E251796}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BC45655-98AB-40F4-AC1D-33586E251796}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BC45655-98AB-40F4-AC1D-33586E251796}.Release|Any CPU.Build.0 = Release|Any CPU
+		{945FA996-DA50-4025-B76C-153499011216}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{945FA996-DA50-4025-B76C-153499011216}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{945FA996-DA50-4025-B76C-153499011216}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{945FA996-DA50-4025-B76C-153499011216}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0940DE7-A89F-4759-9376-4BD5C748F398}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0940DE7-A89F-4759-9376-4BD5C748F398}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0940DE7-A89F-4759-9376-4BD5C748F398}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0940DE7-A89F-4759-9376-4BD5C748F398}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5EA2D586-D6EB-4488-9C6E-BF4BBB2435DE} = {EB1D7AB6-5195-4C02-A8DB-FF0CD1F0C1FE}
+		{76D4ACC2-3897-4842-9E0F-C5636867FAF2} = {0B6AF7C6-EF99-4A22-8DB7-A18FAA420FB7}
+		{5BC45655-98AB-40F4-AC1D-33586E251796} = {5FB13D02-52EE-4597-997C-2B6EC4B71A43}
+		{945FA996-DA50-4025-B76C-153499011216} = {01DD986E-F990-4E66-9BD8-3EC7083BD889}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D911859D-7771-4471-AC90-6852FAC88463}
+	EndGlobalSection
+EndGlobal
